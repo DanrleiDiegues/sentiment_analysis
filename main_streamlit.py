@@ -14,7 +14,8 @@ st.set_page_config(
 )
 
 # Title of the app
-st.header('Give the review of about the service you received')
+st.title('Customer Review Sentiment Analysis App')
+st.subheader('Give the review of about the service you received 😄')
 
 # Text area for the user to input the review
 commentary = st.text_area('Enter your review here')
