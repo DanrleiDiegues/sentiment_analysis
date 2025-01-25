@@ -1,4 +1,11 @@
 import requests
+from dotenv import load_dotenv
+import os
+
+# Load environment variables from the .env file
+load_dotenv()
+# Retrieve the API key
+API_KEY = os.getenv('API_KEY')
 
 # API Key
 URL = f"https://language.googleapis.com/v1/documents:analyzeEntitySentiment?key={API_KEY}"
