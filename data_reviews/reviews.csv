@@ -1,0 +1,45 @@
+commentary,entity,sentiment_score,sentiment_magnitude,salience,category
+The food and music were great!,food,0.9,0.9,0.9426807,Positive
+The food and music were great!,music,0.7,0.7,0.05731931,Positive
+The food was amazing! And the music amazing too!,food,0.9,0.9,0.9426807,Positive
+The food was amazing! And the music amazing too!,music,0.9,0.9,0.05731931,Positive
+"The food was amazing, especially the pasta. I will definitely come back!",pasta,0.9,1.9,1,Positive
+Had a fantastic time. The staff was so friendly and attentive.,staff,0.8,0.8,1,Positive
+"The ambiance was lovely, but the food didn’t meet expectations.",ambiance,0,0,0.5210028,Neutral
+"The ambiance was lovely, but the food didn’t meet expectations.",food,-0.4,0.4,0.35622182,Negative
+"The ambiance was lovely, but the food didn’t meet expectations.",expectations,-0.4,0.4,0.122775376,Negative
+"The portions were small for the price, but the taste was good",portions,0.4,0.4,0.46586984,Positive
+"The portions were small for the price, but the taste was good",price,0.4,0.4,0.29604003,Positive
+"The portions were small for the price, but the taste was good",taste,0.6,0.6,0.23809013,Positive
+Excellent service! Our waiter was very knowledgeable and friendly.,service,0.9,0.9,0.83239406,Positive
+Excellent service! Our waiter was very knowledgeable and friendly.,waiter,0.7,0.7,0.16760597,Positive
+The restaurant is overpriced for what it offers. I was disappointed.,restaurant,-0.4,0.4,1,Negative
+"The seafood was fresh, but the service was very slow.",seafood,-0.1,0.1,0.730133,Neutral
+"The seafood was fresh, but the service was very slow.",service,-0.5,0.5,0.26986703,Negative
+"I loved the atmosphere, but the food was just okay.",atmosphere,0.4,0.4,0.5846628,Positive
+"I loved the atmosphere, but the food was just okay.",food,0.6,0.6,0.4153372,Positive
+I had the best burger of my life here. Highly recommend!,burger,0.8,0.8,0.5169488,Positive
+I had the best burger of my life here. Highly recommend!,life,0.8,0.8,0.4830512,Positive
+This place is overrated. The food was bland and the decor was outdated.,place,0,0,0.8065377,Neutral
+This place is overrated. The food was bland and the decor was outdated.,food,-0.7,0.7,0.14664449,Negative
+This place is overrated. The food was bland and the decor was outdated.,decor,-0.8,0.8,0.04681782,Negative
+Nice cozy spot with delicious coffee. Perfect for a casual lunch.,spot,0.9,0.9,0.50360405,Positive
+Nice cozy spot with delicious coffee. Perfect for a casual lunch.,coffee,0.9,0.9,0.36433548,Positive
+Nice cozy spot with delicious coffee. Perfect for a casual lunch.,lunch,0.7,0.7,0.1320605,Positive
+"The steak was cooked perfectly, but the sides could use some work.",steak,0.4,0.4,0.66278094,Positive
+"The steak was cooked perfectly, but the sides could use some work.",sides,0.4,0.4,0.16860953,Positive
+"The steak was cooked perfectly, but the sides could use some work.",work,0.2,0.2,0.16860953,Neutral
+I didn’t enjoy my meal. It was way too salty and lacked flavor.,meal,-0.9,0.9,0.73335004,Negative
+I didn’t enjoy my meal. It was way too salty and lacked flavor.,flavor,-0.8,0.8,0.26664996,Negative
+A wonderful experience from start to finish. I will be back!,experience,0.9,0.9,0.4127131,Positive
+A wonderful experience from start to finish. I will be back!,finish,0.9,0.9,0.2952659,Positive
+A wonderful experience from start to finish. I will be back!,start,0.9,0.9,0.29202098,Positive
+"The wait time was long, but the food was worth it.",food,0.8,0.8,1,Positive
+"Food was cold when it arrived, which ruined the experience for me.",Food,-0.3,1,0.95696443,Negative
+"Food was cold when it arrived, which ruined the experience for me.",experience,-0.3,0.3,0.04303554,Negative
+Loved the dessert selection! Definitely a place for sweet tooths.,dessert selection,0.9,0.9,0.63476104,Positive
+Loved the dessert selection! Definitely a place for sweet tooths.,place,0.7,0.7,0.20695823,Positive
+Loved the dessert selection! Definitely a place for sweet tooths.,tooths,0.8,0.8,0.1582807,Positive
+"The restaurant has a great vibe, but the food didn't blow me away.",restaurant,0.5,0.5,0.634824,Positive
+"The restaurant has a great vibe, but the food didn't blow me away.",vibe,0.5,0.5,0.18866527,Positive
+"The restaurant has a great vibe, but the food didn't blow me away.",food,0.6,0.6,0.17651075,Positive
