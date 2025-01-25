@@ -1,14 +1,20 @@
 # Main app: Streamlit app for the project
 import streamlit as st
-
 # Importing the function from the model_api_call.py
 from modules.model_api_call import get_entity_sentiment
 from modules.data_processing import process_entity_sentiment
 from modules.get_reviews_to_csv import save_reviews_to_csv
 # from modules.data_storage import append_to_google_sheets
 
+# Configure the page
+st.set_page_config(
+    page_title="Customer Review Sentiment Analysis App",
+    page_icon="📝",
+    layout="centered"
+)
+
 # Title of the app
-st.title('Give the review of about the service you received')
+st.header('Give the review of about the service you received')
 
 # Text area for the user to input the review
 commentary = st.text_area('Enter your review here')
