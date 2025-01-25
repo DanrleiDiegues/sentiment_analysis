@@ -1,5 +1,5 @@
 # Module: data_processing.py
-from sklearn.preprocessing import MinMaxScaler
+# The data_processing.py module contains the process_entity_sentiment function that processes the entity sentiment data from the Google NLP API response. The function categorizes the sentiment scores into Positive, Negative, or Neutral based on the thresholds provided as arguments. The function returns a list of dictionaries containing the entity name, sentiment score, magnitude, and category.
 
 def process_entity_sentiment(entity_data, positive_threshold=0.2, negative_threshold=-0.2, magnitude_threshold=0.5, salience_threshold=0.1):
     """
@@ -30,10 +30,6 @@ def process_entity_sentiment(entity_data, positive_threshold=0.2, negative_thres
         else:
             category = "Neutral"
 
-        # Scaler
-        # scaler = MinMaxScaler()
-        # normalized_data = scaler.fit_transform([[magnitude, salience]])
-        
         # Create each entity's caracteristic with a indice in from of the carecteristics for example: entity_1, entity_2, entity_3
             
         # Append processed data

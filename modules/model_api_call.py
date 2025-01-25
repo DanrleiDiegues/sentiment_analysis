@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = "API_KEY" # API key from Google Cloud Platform
+# API Key
 URL = f"https://language.googleapis.com/v1/documents:analyzeEntitySentiment?key={API_KEY}"
 
 # Example: "I liked the sushi but the service was terrible."
