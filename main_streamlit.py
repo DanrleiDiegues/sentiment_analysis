@@ -8,7 +8,7 @@ from modules.get_reviews_to_csv import save_reviews_to_csv
 
 # Configure the page
 st.set_page_config(
-    page_title="Customer Review Sentiment Analysis App",
+    page_title="Entity Sentiment Analysis App",
     page_icon="📝",
     layout="centered"
 )
